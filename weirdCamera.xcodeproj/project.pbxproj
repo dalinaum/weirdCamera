@@ -10,6 +10,7 @@
 		57FEA350194DC5F700C47573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA34F194DC5F700C47573 /* AppDelegate.swift */; };
 		57FEA352194DC5F700C47573 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA351194DC5F700C47573 /* Images.xcassets */; };
 		57FEA35E194DC5F700C47573 /* weirdCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA35D194DC5F700C47573 /* weirdCameraTests.swift */; };
+		57FEA368194DC69A00C47573 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA367194DC69900C47573 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		57FEA357194DC5F700C47573 /* weirdCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weirdCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA35C194DC5F700C47573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57FEA35D194DC5F700C47573 /* weirdCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weirdCameraTests.swift; sourceTree = "<group>"; };
+		57FEA367194DC69900C47573 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		57FEA341194DC5F700C47573 = {
 			isa = PBXGroup;
 			children = (
+				57FEA367194DC69900C47573 /* README.md */,
 				57FEA34C194DC5F700C47573 /* weirdCamera */,
 				57FEA35A194DC5F700C47573 /* weirdCameraTests */,
 				57FEA34B194DC5F700C47573 /* Products */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FEA368194DC69A00C47573 /* README.md in Sources */,
 				57FEA350194DC5F700C47573 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -306,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = weirdCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -317,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = weirdCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
